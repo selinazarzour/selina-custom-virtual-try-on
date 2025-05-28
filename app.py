@@ -4,6 +4,7 @@ import numpy as np
 import cv2
 import os
 import base64
+from dotenv import load_dotenv
 
 from try_on_diffusion_client import TryOnDiffusionClient
 
@@ -13,8 +14,10 @@ LOG_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
 EXAMPLE_PATH = os.path.join(os.path.dirname(__file__), "examples")
 
-API_URL = "https://try-on-diffusion.p.rapidapi.com"
-API_KEY = "76cebf2c24msh8ea6e489fb837f0p171e40jsn2f57db29afd2"
+load_dotenv()
+
+API_URL = os.getenv("API_URL", "https://try-on-diffusion.p.rapidapi.com")
+API_KEY = os.getenv("API_KEY", "sample_key")
 
 SHOW_RAPIDAPI_LINK = os.getenv("TRY_ON_DIFFUSION_DEMO_SHOW_RAPIDAPI_LINK", "1") == "1"
 
