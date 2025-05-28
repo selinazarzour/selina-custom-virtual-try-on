@@ -16,3 +16,6 @@ This app is built with Python, Gradio, and OpenCV, and leverages a powerful diff
 **Note:** This is a personal, non-commercial project. All API usage is subject to RapidAPI's terms and any applicable quotas.
 
 Enjoy exploring the future of virtual fashion!
+
+Sample of the website:
+<img width="1423" alt="Screenshot 2025-05-28 at 14 29 39" src="https://github.com/user-attachments/assets/3b77d154-fb57-456c-afa5-fe87496b888a" />
