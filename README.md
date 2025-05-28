@@ -34,7 +34,15 @@ To set up and run the app locally, follow these steps:
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
-3. **Run the app:**
+3. **Configure your API credentials:**
+   - Copy the `.env.sample` file to `.env`:
+     ```zsh
+     cp .env.sample .env
+     ```
+   - Open `.env` in a text editor and add your API credentials for `API_URL` and `API_KEY`.
+   - **Do not share your `.env` file or commit it to git.**
+
+4. **Run the app:**
    ```zsh
    python app.py
    ```
