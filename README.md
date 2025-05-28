@@ -19,3 +19,24 @@ Enjoy exploring the future of virtual fashion!
 
 Sample of the website:
 <img width="1423" alt="Screenshot 2025-05-28 at 14 29 39" src="https://github.com/user-attachments/assets/3b77d154-fb57-456c-afa5-fe87496b888a" />
+
+## Setup and Running the App
+
+To set up and run the app locally, follow these steps:
+
+1. **Create a virtual environment:**
+   ```zsh
+   python3 -m venv venv
+   ```
+2. **Activate the virtual environment and install dependencies:**
+   ```zsh
+   source venv/bin/activate
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+3. **Run the app:**
+   ```zsh
+   python app.py
+   ```
+
+Make sure you are in the activated virtual environment (`source venv/bin/activate`) before running the app.
