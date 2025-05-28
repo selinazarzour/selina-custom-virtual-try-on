@@ -1,22 +1,3 @@
-﻿---
-title: Selina's Custom Virtual Fashion Studio
-emoji: 👗
-colorFrom: indigo
-colorTo: purple
-sdk: gradio
-sdk_version: 5.13.1
-app_file: app.py
-pinned: false
-short_description: Diffusion-based multi-modal virtual try-on pipeline demo
-tags:
-    - virtual try-on
-    - vton
-    - clothing transfer
-    - diffusion
-    - img2img
-    - txt2img
----
-
 # Selina's Custom Virtual Fashion Studio
 
 Virtual try-on is rapidly becoming the future of fashion, enabling anyone to experiment with styles, outfits, and creativity from the comfort of their own home. This project is a personal playground for exploring the power of AI-driven, multi-modal virtual try-on—where you can mix and match clothing, avatars, and backgrounds using both images and text prompts.
